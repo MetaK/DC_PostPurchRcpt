@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "SAAS", //Mi CDX para desarrollar
+            "type": "al",
+            "request": "launch",
+            // "tenant": "d5467639-f1f4-4b5f-b7dc-53553c2b5dd6", //PROTUR
+            // "environmentType": "Sandbox",
+            // "environmentName": "PreProduction",
+            "tenant": "a8e2b95f-1626-4e55-8e58-6687e6274e73", //URBIA
+            "environmentType": "Sandbox",
+            "environmentName": "Embat_DocumentCapture_20221213",
+            "startupObjectId": 6085582,
+            "breakOnError": true,
+            "breakOnRecordWrite": false,
+            "launchBrowser": true,
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10,
+            "schemaUpdateMode": "Synchronize"
+        }
+    ]
+}

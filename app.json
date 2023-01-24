@@ -1,0 +1,39 @@
+{
+  "id": "b4e3c440-5b50-4e35-ac30-66eaff698dd7",
+  "name": "DYNDC PostPurchRcpt",
+  "publisher": "Dynasoft Spain",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "appId": "4efea569-c6f2-46f3-923a-f0a723ca7798",
+      "name": "PostPurchRcpt",
+      "publisher": "Continia Spain",
+      "version": "5.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "21.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "10.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
